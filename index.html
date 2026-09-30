@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AUREVO – Fenster-, Gebäude- & Fahrzeugpflege | Winsen</title>
+  <meta name="description" content="AUREVO Fenster-, Gebäude- und mobile Fahrzeugpflege in Winsen (Luhe) und Umgebung. Professionell, zuverlässig und flexibel.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #17202a;
+      background: #f5f7f8;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #101820;
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101820, #263746);
+      color: white;
+      padding: 90px 6%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 21px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d6b36a;
+      color: #101820;
+      padding: 14px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    section {
+      padding: 65px 6%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #101820;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .contact {
+      background: #101820;
+      color: white;
+      text-align: center;
+      max-width: none;
+    }
+
+    .contact h2 {
+      color: white;
+    }
+
+    footer {
+      background: #080d12;
+      color: #aaa;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">AUREVO</div>
+
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#preise">Preise</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Glanz für Gebäude & Fahrzeuge.</h1>
+
+  <p>
+    AUREVO Fenster-, Gebäude- & mobile Fahrzeugpflege
+    in Winsen (Luhe) und Umgebung.
+  </p>
+
+  <a class="button" href="tel:+4915906802579">
+    📞 Jetzt anrufen
+  </a>
+
+  <a class="button" href="#kontakt">
+    Anfrage stellen
+  </a>
+</section>
+
+<section>
+  <h2>Willkommen bei AUREVO</h2>
+
+  <p class="intro">
+    AUREVO steht für zuverlässige Reinigung, gepflegte Ergebnisse
+    und persönlichen Service. Wir reinigen Fenster und Gebäude
+    und bieten zusätzlich mobile Fahrzeugpflege direkt bei Ihnen
+    vor Ort an.
+  </p>
+</section>
+
+<section id="leistungen">
+  <h2>Unsere Leistungen</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>🪟 Fensterreinigung</h3>
+      <p>
+        Professionelle Reinigung von Fenstern, Glasflächen,
+        Rahmen und Fensterbänken.
+      </p>
+      <p class="price">ab 45 €</p>
+    </div>
+
+    <div class="card">
+      <h3>🏢 Gebäudereinigung</h3>
+      <p>
+        Reinigung und Pflege von privaten und gewerblichen
+        Gebäuden und Räumlichkeiten.
+      </p>
+      <p class="price">ab 35 €</p>
+    </div>
+
+    <div class="card">
+      <h3>🚗 Mobile Fahrzeugpflege</h3>
+      <p>
+        Fahrzeugpflege bequem bei Ihnen vor Ort.
+        Innenraumreinigung und Außenpflege.
+      </p>
+      <p class="price">ab 59 €</p>
+    </div>
+
+    <div class="card">
+      <h3>✨ Individuelle Reinigung</h3>
+      <p>
+        Sie benötigen eine spezielle Reinigung?
+        Wir erstellen Ihnen gerne ein individuelles Angebot.
+      </p>
+      <p class="price">Auf Anfrage</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="preise">
+  <h2>Faire & transparente Preise</h2>
+
+  <p class="intro">
+    Die angegebenen Preise dienen als Orientierung.
+    Der endgültige Preis richtet sich nach Größe, Aufwand,
+    Verschmutzungsgrad und gewünschtem Leistungsumfang.
+  </p>
+</section>
+
+<section>
+  <h2>Warum AUREVO?</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>✓ Zuverlässig</h3>
+      <p>Termintreu und zuverlässig – von der Anfrage bis zur Durchführung.</p>
+    </div>
+
+    <div class="card">
+      <h3>✓ Mobil</h3>
+      <p>Unsere mobile Fahrzeugpflege kommt direkt zu Ihnen.</p>
+    </div>
+
+    <div class="card">
+      <h3>✓ Persönlich</h3>
+      <p>Direkter Kontakt und individuelle Lösungen für jeden Auftrag.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="kontakt" class="contact">
+  <h2>Kontakt aufnehmen</h2>
+
+  <p>
+    Sie möchten ein Angebot oder einen Termin?
+  </p>
+
+  <br>
+
+  <p>
+    📞 <strong>+49 1590 6802579</strong>
+  </p>
+
+  <br>
+
+  <a class="button" href="tel:+4915906802579">
+    Jetzt anrufen
+  </a>
+
+</section>
+
+<footer>
+  © 2026 AUREVO Fenster-, Gebäude- & Fahrzeugpflege
+  · Winsen (Luhe) & Umgebung
+</footer>
+
+</body>
+</html>
